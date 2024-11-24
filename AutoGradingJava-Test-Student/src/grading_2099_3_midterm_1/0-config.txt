@@ -1,0 +1,33 @@
+# grading_2099_3_midterm_1
+
+
+# solution ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ L
+
+# pack_a ~~~~~
+L,pack_a/Adder.java
+L,pack_a/Multiplier.java
+
+# pack_a.pack_c ~~~~~
+L,pack_a/pack_c/Subtracter.java
+
+# pack_b ~~~~~
+L,pack_b/ProductOfSums.java
+
+
+# copy ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C
+
+# pdf ~~~~~
+C,cis111-grading-2099-3-midterm-1.pdf
+
+# java ~~~~~
+
+# pack_a ~~~~~
+C,pack_a/Adder_Test.java
+L,pack_a/Multiplier_Test.java
+
+# pack_a.pack_c ~~~~~
+C,pack_a/pack_c/Subtracter_Test.java
+
+
+# pack_b ~~~~~
+C,pack_b/ProductOfSums_Test.java
