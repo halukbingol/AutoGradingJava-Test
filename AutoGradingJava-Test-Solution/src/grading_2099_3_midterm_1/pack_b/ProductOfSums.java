@@ -10,7 +10,7 @@ public class ProductOfSums {
 		// TODO your code should be between below and above marks.
 
 		// below-0123456789-9876543210-V solution >>>>>>>>> V
-		// ~~fake~~ return 0; // fake
+		// ~~fake~~ return 0;
 
 		int x = Adder.add(a, b);
 		int y = Adder.add(c, d);

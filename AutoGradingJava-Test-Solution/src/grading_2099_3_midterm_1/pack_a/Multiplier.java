@@ -8,7 +8,7 @@ public class Multiplier {
 		// TODO your code should be between below and above marks.
 
 		// below-0123456789-9876543210-V solution >>>>>>>>> V
-		// ~~fake~~ return 0; // fake
+		// ~~fake~~ return 0;
 
 		return a * b;
 
