@@ -19,6 +19,9 @@ L,pack_b/ProductOfSums.java
 # pdf ~~~~~
 C,cis111-grading-2099-3-midterm-1.pdf
 
+# home ~~~~~
+C,StudentInfo.java
+
 # java ~~~~~
 
 # pack_a ~~~~~
