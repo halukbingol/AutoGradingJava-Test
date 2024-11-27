@@ -1,4 +1,4 @@
-# textADouble.txt
+# pack_b/textB.txt
 
 1
 2
@@ -6,11 +6,8 @@
 // TODO your code should be between below and above marks.
 
 // below-0123456789-9876543210-V solution >>>>>>>>> V
-// ~~fake~~ exit 3;
-SOLUTION-V
 a
 b
-SOLUTION-A
 // above-0123456789-9876543210-A solution <<<<<<<<< A
 
 // above-0123456789-A toDo  // do not change this line ~~~~~~~~~~ A
@@ -20,14 +17,23 @@ SOLUTION-A
 // TODO your code should be between below and above marks.
 
 // below-0123456789-9876543210-V solution >>>>>>>>> V
-SOLUTION-V
-// ~~fake~~ exit 1;
-// ~~fake~~ exit 2;
 aa
 bb
-SOLUTION-A
+// above-0123456789-9876543210-A solution <<<<<<<<< A
+
+// above-0123456789-A toDo  // do not change this line ~~~~~~~~~~ A		
+111
+
+211
+// below-0123456789-V toDo  // do not change this line ~~~~~~~~~~ V
+// TODO your code should be between below and above marks.
+
+// below-0123456789-9876543210-V solution >>>>>>>>> V
+aaa
+
+bbb
 // above-0123456789-9876543210-A solution <<<<<<<<< A
 
 // above-0123456789-A toDo  // do not change this line ~~~~~~~~~~ A
-111
-211
+1111
+2111

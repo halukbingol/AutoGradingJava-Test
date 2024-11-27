@@ -42,16 +42,18 @@ C,pack_b/ProductOfSums_Test.java
 
 
 # zz_ts ~~~~~
-C,zz_ts/TS__Adder_jUnit.java
-C,zz_ts/TS__Multiplier_jUnit.java
-C,zz_ts/TS__ProductOfSums_jUnit.java
+C,z_ts/TS_Adder_jUnit.java
+C,z_ts/TS_Multiplier_jUnit.java
+C,z_ts/TS_ProductOfSums_jUnit.java
+C,z_ts/TS_Subtract_jUnit.java
 
 
 
 
 # test-hidden ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ H
 
-# z_th ~~~~~
-H,z_th/TH_Adder_jUnit.java
-H,z_th/TH_Multiplier_jUnit.java
-H,z_th/TH_ProductOfSums_jUnit.java
+# zz__th ~~~~~
+H,zz__th/TH__Adder_jUnit.java
+H,zz__th/TH__Multiplier_jUnit.java
+H,zz__th/TH__ProductOfSums_jUnit.java
+H,zz__th/TH__Subtract_jUnit.java
