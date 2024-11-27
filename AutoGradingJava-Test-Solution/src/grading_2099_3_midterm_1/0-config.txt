@@ -6,12 +6,16 @@
 # pack_a ~~~~~
 L,pack_a/Adder.java
 L,pack_a/Multiplier.java
+L,pack_a/textADouble.txt
+L,pack_a/textASingle.txt
 
 # pack_a.pack_c ~~~~~
 L,pack_a/pack_c/Subtracter.java
 
 # pack_b ~~~~~
 L,pack_b/ProductOfSums.java
+L,pack_b/textB.txt
+
 
 
 # copy ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C
@@ -26,7 +30,8 @@ C,StudentInfo.java
 
 # pack_a ~~~~~
 C,pack_a/Adder_Test.java
-L,pack_a/Multiplier_Test.java
+C,pack_a/Multiplier_Test.java
+C,pack_a/textMarker.txt
 
 # pack_a.pack_c ~~~~~
 C,pack_a/pack_c/Subtracter_Test.java
@@ -34,3 +39,19 @@ C,pack_a/pack_c/Subtracter_Test.java
 
 # pack_b ~~~~~
 C,pack_b/ProductOfSums_Test.java
+
+
+# zz_ts ~~~~~
+C,zz_ts/TS__Adder_jUnit.java
+C,zz_ts/TS__Multiplier_jUnit.java
+C,zz_ts/TS__ProductOfSums_jUnit.java
+
+
+
+
+# test-hidden ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ H
+
+# z_th ~~~~~
+H,z_th/TH_Adder_jUnit.java
+H,z_th/TH_Multiplier_jUnit.java
+H,z_th/TH_ProductOfSums_jUnit.java

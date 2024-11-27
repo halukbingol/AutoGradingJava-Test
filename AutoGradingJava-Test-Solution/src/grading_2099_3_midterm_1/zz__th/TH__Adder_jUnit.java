@@ -1,4 +1,4 @@
-package grading_2099_3_midterm_1.test_shared;
+package grading_2099_3_midterm_1.zz__th;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,40 +6,42 @@ import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
-import grading_2099_3_midterm_1.pack_a.Multiplier;
+import grading_2099_3_midterm_1.StudentInfo;
+import grading_2099_3_midterm_1.pack_a.Adder;
 
 @TestMethodOrder(MethodOrderer.MethodName.class)
 
-class TS_Multiplier_jUnit {
+class TH__Adder_jUnit {
 
 	/*
 	 * jUnit working
 	 */
 
 	@Test
-	void jUnitWorking() {
+	void zz_jUnitWorking() {
 		System.out.println("\n-" + StackWalker.getInstance().walk(s -> s.skip(0).findFirst()).get().getMethodName());
 
-		System.out.println("\nYou got 1 points since jUnit is working");
+		StudentInfo.studentTag();
+		System.out.println("\nYou got 1 points since jUnit is working.");
 		assertEquals(1, 1);
 	}
 
 	/*
-	 * multiply
+	 * adder
 	 */
 
 	@Test
-	void multiply_2_3() {
+	void adder_0_0() {
 		System.out.println("\n-" + StackWalker.getInstance().walk(s -> s.skip(0).findFirst()).get().getMethodName());
 
-		assertEquals(6, Multiplier.multiply(2, 3));
+		assertEquals(0, Adder.add(0, 0));
 	}
 
 	@Test
-	void multiply_3_4() {
+	void adder_m1_1() {
 		System.out.println("\n-" + StackWalker.getInstance().walk(s -> s.skip(0).findFirst()).get().getMethodName());
 
-		assertEquals(12, Multiplier.multiply(3, 4));
+		assertEquals(0, Adder.add(-1, 1));
 	}
 
 }

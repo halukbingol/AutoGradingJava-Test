@@ -1,4 +1,4 @@
-package grading_2099_3_midterm_1.test_shared;
+package grading_2099_3_midterm_1.zz__th;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -6,21 +6,28 @@ import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
+import grading_2099_3_midterm_1.StudentInfo;
 import grading_2099_3_midterm_1.pack_b.ProductOfSums;
 
 @TestMethodOrder(MethodOrderer.MethodName.class)
 
-class TS_ProductOfSums_jUnit {
+/**
+ * TestHidden
+ * 
+ * @author bingol
+ */
+class TH__ProductOfSums_jUnit {
 
 	/*
 	 * jUnit working
 	 */
 
 	@Test
-	void jUnitWorking() {
+	void zz_jUnitWorking() {
 		System.out.println("\n-" + StackWalker.getInstance().walk(s -> s.skip(0).findFirst()).get().getMethodName());
 
-		System.out.println("\nYou got 1 points since jUnit is working");
+		StudentInfo.studentTag();
+		System.out.println("\nYou got 1 points since jUnit is working.");
 		assertEquals(1, 1);
 	}
 
@@ -29,17 +36,17 @@ class TS_ProductOfSums_jUnit {
 	 */
 
 	@Test
-	void multiplyAdd_1_2_3_4() {
+	void multiplyAdd_1_m1_2_3() {
 		System.out.println("\n-" + StackWalker.getInstance().walk(s -> s.skip(0).findFirst()).get().getMethodName());
 
-		assertEquals(21, ProductOfSums.multiplyAdd(1, 2, 3, 4));
+		assertEquals(0, ProductOfSums.multiplyAdd(1, -1, 2, 3));
 	}
 
 	@Test
-	void multiplyAdd_2_3_4_5() {
+	void multiplyAdd_5_7_m3_3() {
 		System.out.println("\n-" + StackWalker.getInstance().walk(s -> s.skip(0).findFirst()).get().getMethodName());
 
-		assertEquals(45, ProductOfSums.multiplyAdd(2, 3, 4, 5));
+		assertEquals(0, ProductOfSums.multiplyAdd(25, 7, -3, 3));
 	}
 
 }
